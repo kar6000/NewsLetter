@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400;1,700&display=swap');
+html,
+body,
+.body {
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  background: #FAFAFA;
+  background-color: #FAFAFA;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+    .logo_white {
+      width: 128px;
+    }
+    h2 {
+        color:#039FAE;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-style: italic;
+    }
+  }
+}
+.deal_of_day {
+  background: #ffffff;
+  background-color: #ffffff;
+  .columns {
+    th {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  }
+  img {
+    padding-bottom: 30px;
+  }
+  .button {
+    // display: block;
+    width: 150px;
+    text-align: center;
+    padding:10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color:white;
+    font-weight: 600;
+    background-color: #039FAE;   
+    background: #039FAE; 
+    // margin-bottom:100px;
+    // margin-top:100px;    
+  }
+ 
+  p {
+    color: #232323;
+    font-weight: 300;
+    font-size: 14px;   
+    padding-bottom: 20px;    
+    // margin-bottom:40px;
+    &.last-para{
+        margin-bottom: 45px;
+    }
+  }
+ 
+  h2{
+    font-size:20px;
+    &.thankyou{
+        margin-top: 50px;    
+        margin-bottom: 30px;
+      } 
+  } 
+  
+}
+.footer-bottom {
+    background: #FAFAFA;
+    background-color: #FAFAFA;
+  & > tbody > tr > th {
+    padding-left: 30px !important;
+    padding-bottom: 30px;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+  }
+  .lower-links {
+    .link {
+      font-size: 13px !important;
+      color:#039FAE  !important;
+      margin-right: 10px;
+      &:nth-child(4) {
+        margin-right: 0;
+      }     
+    }
+    border-bottom:2px solid #039FAE; 
+    margin-bottom:30px;
+  }
+  .privacy {
+    th {
+      padding-bottom: 0;
+    }
+    & > tbody > tr > th > table > tbody > tr > th {
+      padding-bottom: 30px;
+    }
+    p {
+      color: #039FAE; 
+      font-size: 14px;
+      padding-bottom: 30px;
+    }
+  }
+  .copyright,
+  .address {
+    th {
+      padding-bottom: 0;
+    }
+    .columns {
+      p {
+        color: #039FAE; 
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 0px;
+        
+      }
+    }
+  }
+}
+.center-tag {
+  min-width: auto;
+}
